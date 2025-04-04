@@ -5,7 +5,7 @@ const pictures = [
   "DSC00680",
   "DSC00933",
   "DSC00966",
-  "DSC00983",
+  "DSC00983", 
   "DSC01011",
   "DSC01040",
   "DSC01064",
@@ -51,10 +51,10 @@ export const UI = () => {
     <>
       <main className=" pointer-events-none select-none z-10 fixed  inset-0  flex justify-between flex-col">
         <a
-          className="pointer-events-auto mt-10 ml-10"
-          href="https://lessons.wawasensei.dev/courses/react-three-fiber"
-        >
-          <img className="w-20" src="/images/wawasensei-white.png" />
+          className="pointer-events-auto mt-10 ml-10" 
+          href="https://aryanbhargava.vercel.app/"  
+        > 
+          <img className="w-24" src="/images/aryanbhargava.png" />
         </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
@@ -88,48 +88,48 @@ export const UI = () => {
       <div className="fixed inset-0 flex items-center -rotate-2 select-none">
         <div className="relative">
           <div className="bg-white/0  animate-horizontal-scroll flex items-center gap-8 w-max px-8">
-            <h1 className="shrink-0 text-white text-10xl font-black ">
-              Wawa Sensei
+          <h1 className="shrink-0 text-white text-10xl font-black ">
+              Aryan Bhargava
             </h1>
             <h2 className="shrink-0 text-white text-8xl italic font-light">
-              React Three Fiber
+              3d
             </h2>
             <h2 className="shrink-0 text-white text-12xl font-bold">
-              Three.js
+              Animated
             </h2>
             <h2 className="shrink-0 text-transparent text-12xl font-bold italic outline-text">
-              Ultimate Guide
+              Book
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-medium">
-              Tutorials
+              Slider
             </h2>
-            <h2 className="shrink-0 text-white text-9xl font-extralight italic">
+            {/* <h2 className="shrink-0 text-white text-9xl font-extralight italic">
               Learn
             </h2>
             <h2 className="shrink-0 text-white text-13xl font-bold">
-              Practice
+              Practice 
             </h2>
             <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
               Creative
-            </h2>
+            </h2> */}
           </div>
           <div className="absolute top-0 left-0 bg-white/0 animate-horizontal-scroll-2 flex items-center gap-8 px-8 w-max">
             <h1 className="shrink-0 text-white text-10xl font-black ">
-              Wawa Sensei
+              Aryan Bhargava
             </h1>
             <h2 className="shrink-0 text-white text-8xl italic font-light">
-              React Three Fiber
+              3d
             </h2>
             <h2 className="shrink-0 text-white text-12xl font-bold">
-              Three.js
+              Animated
             </h2>
             <h2 className="shrink-0 text-transparent text-12xl font-bold italic outline-text">
-              Ultimate Guide
+              Book
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-medium">
-              Tutorials
+              Slider
             </h2>
-            <h2 className="shrink-0 text-white text-9xl font-extralight italic">
+            {/* <h2 className="shrink-0 text-white text-9xl font-extralight italic">
               Learn
             </h2>
             <h2 className="shrink-0 text-white text-13xl font-bold">
@@ -137,7 +137,7 @@ export const UI = () => {
             </h2>
             <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
               Creative
-            </h2>
+            </h2> */}
           </div>
         </div>
       </div>
