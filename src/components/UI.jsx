@@ -47,7 +47,7 @@ export const UI = () => {
         <a
           className="pointer-events-auto mt-10 ml-10"
         >
-          <img className="w-20" src="public/textures/book-cover.jpg" /> 
+          <img className="w-20" src="/textures/book-cover.jpg" /> 
         </a>
         <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
