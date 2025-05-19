@@ -91,7 +91,7 @@ export const UI = () => {
               Animated
             </h2>
             <h2 className="shrink-0 text-transparent text-12xl font-bold italic outline-text">
-              Book
+              Book 
             </h2>
             <h2 className="shrink-0 text-white text-9xl font-medium">
               Slider
